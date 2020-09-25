@@ -7,7 +7,7 @@ from tkinter import messagebox as alerta
 class mainHolder:
     def __init__(self):
         self.root = Tk()
-        self.root.iconphoto(True,PhotoImage(file='logo.png'))
+        self.root.iconphoto(True,PhotoImage(file='img/logo.png'))
         self.root.title("FCC Toolkit - Relación")
         self.root.configure(background="white")
         self.root.minsize(1110,500)
