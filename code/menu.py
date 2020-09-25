@@ -31,7 +31,7 @@ class mainHolder:
         font_color = "black" if(int(rand_color[1:],16) >= 7000000) else "white"
 
         self.root.title("FCC Toolkit")
-        self.root.iconphoto(True,PhotoImage(file='logo.png'))
+        self.root.iconphoto(True,PhotoImage(file='img/logo.png'))
         self.root.configure(background=rand_color)
         self.root.minsize(1110,300)
         self.root.maxsize(1210,400)
